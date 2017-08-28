@@ -26,12 +26,12 @@ You can use `CocoaPods` to install `KSYCollectionViewLayout`
 ```
 
 * collection view use layout 
-```
+```Swift
   let collect = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
 ```
 
 * impl KSYCollectionViewLayoutDelegate
-```
+```Swift
 extension ViewController: KSYCollectionViewLayoutDelegate {
     func numberOfColumn(in collectionView: UICollectionView) -> Int {
         return columnCount
