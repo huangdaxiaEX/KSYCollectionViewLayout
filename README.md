@@ -5,6 +5,18 @@
 ## Results the preview
   <img src="demoPreview.gif" alt="demo preview" />
   
+## Requirements
+
+- iOS 8.0+ 
+- Swift3.0+
+
+## Install
+You can use `CocoaPods` to install `KSYCollectionViewLayout`
+
+```
+    pod 'KSYCollectionViewLayout', "~> 1.2"
+```
+
 ## How to use
 
 * init
