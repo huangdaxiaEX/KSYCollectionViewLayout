@@ -12,6 +12,7 @@
 		D51EAF821F3B127E0000EBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51EAF801F3B127E0000EBCF /* Main.storyboard */; };
 		D51EAF841F3B127E0000EBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51EAF831F3B127E0000EBCF /* Assets.xcassets */; };
 		D51EAF871F3B127E0000EBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51EAF851F3B127E0000EBCF /* LaunchScreen.storyboard */; };
+		D51EAF901F3B135D0000EBCF /* KSYCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51EAF8F1F3B135D0000EBCF /* KSYCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D51EAF831F3B127E0000EBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D51EAF861F3B127E0000EBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D51EAF881F3B127E0000EBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51EAF8F1F3B135D0000EBCF /* KSYCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSYCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D51EAF7B1F3B127E0000EBCF /* KSYCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				D51EAF8E1F3B13520000EBCF /* Layout */,
 				D51EAF7C1F3B127E0000EBCF /* AppDelegate.swift */,
 				D51EAF7E1F3B127E0000EBCF /* ViewController.swift */,
 				D51EAF801F3B127E0000EBCF /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D51EAF881F3B127E0000EBCF /* Info.plist */,
 			);
 			path = KSYCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		D51EAF8E1F3B13520000EBCF /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D51EAF8F1F3B135D0000EBCF /* KSYCollectionViewLayout.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51EAF901F3B135D0000EBCF /* KSYCollectionViewLayout.swift in Sources */,
 				D51EAF7F1F3B127E0000EBCF /* ViewController.swift in Sources */,
 				D51EAF7D1F3B127E0000EBCF /* AppDelegate.swift in Sources */,
 			);
@@ -210,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -275,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7XJK67HUB;
 				INFOPLIST_FILE = KSYCollectionViewLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ksy.KSYCollectionViewLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7XJK67HUB;
 				INFOPLIST_FILE = KSYCollectionViewLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ksy.KSYCollectionViewLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
