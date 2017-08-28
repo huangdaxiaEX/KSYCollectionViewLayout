@@ -4,6 +4,7 @@
 
 ## Results the preview
   <img src="demoPreview.gif" alt="demo preview" />
+  
 ## How to use
 
 * init
