@@ -19,6 +19,11 @@ You can use `CocoaPods` to install `KSYCollectionViewLayout`
 
 ## How to use
 
+* import 
+```Swift
+  import KSYCollectionViewLayout
+```
+
 * init
 ```Swift
   let layout = KSYCollectionViewLayout()
