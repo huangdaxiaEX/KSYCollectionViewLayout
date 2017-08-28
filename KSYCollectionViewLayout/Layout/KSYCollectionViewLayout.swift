@@ -48,7 +48,7 @@ public class KSYCollectionViewLayout: UICollectionViewLayout {
     }
     
     /// delegate for layout
-    weak var delegate: KSYCollectionViewLayoutDelegate?
+    public weak var delegate: KSYCollectionViewLayoutDelegate?
     
     fileprivate var columnHeights: [Int : CGFloat] = [Int : CGFloat]()
     

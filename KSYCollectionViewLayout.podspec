@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KSYCollectionViewLayout"
-  s.version      = "1.0"
+  s.version      = “1.1”
   s.summary      = "UICollectionViewLayout."
   s.description  = "🚀 A waterfall flows collection view layout."
   s.homepage     = "https://github.com/huangdaxiaEX/KSYCollectionViewLayout/"
