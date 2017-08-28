@@ -66,6 +66,7 @@ extension ViewController: KSYCollectionViewLayoutDelegate {
     func numberOfColumn(in collectionView: UICollectionView) -> Int {
         return columnCount
     }
+    
     func collectionView(_ collectionView: UICollectionView, layout: KSYCollectionViewLayout, heightForItemAt indexPath: IndexPath) -> CGFloat {
         let height = 200 + arc4random() % 100
         
