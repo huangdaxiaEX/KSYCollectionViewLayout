@@ -5,7 +5,24 @@
 ## Results the preview
   <img src="demoPreview.gif" alt="demo preview" />
   
+## Requirements
+
+- iOS 8.0+ 
+- Swift3.0+
+
+## Install
+You can use `CocoaPods` to install `KSYCollectionViewLayout`
+
+```
+    pod 'KSYCollectionViewLayout', "~> 1.2"
+```
+
 ## How to use
+
+* import 
+```Swift
+  import KSYCollectionViewLayout
+```
 
 * init
 ```Swift
@@ -14,12 +31,12 @@
 ```
 
 * collection view use layout 
-```
+```Swift
   let collect = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
 ```
 
 * impl KSYCollectionViewLayoutDelegate
-```
+```Swift
 extension ViewController: KSYCollectionViewLayoutDelegate {
     func numberOfColumn(in collectionView: UICollectionView) -> Int {
         return columnCount
